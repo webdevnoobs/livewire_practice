@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    Some Text Here
+    <livewire:contact-form />
 
     <!-- scripts -->
     @livewireScripts
