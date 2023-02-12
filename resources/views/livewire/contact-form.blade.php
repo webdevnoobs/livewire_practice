@@ -21,7 +21,7 @@
         </div>
         <div class="row mb-3">
             <label for="subject" class="form-label">Subject</label>
-            <input id="subject" type="subject" class="form-control" wire:model="subject">
+            <input id="subject" type="text" class="form-control" wire:model="subject">
             @error('subject') <span class="text-danger">{{$message}}</span> @enderror
         </div>
         <div class="row mb-3">
